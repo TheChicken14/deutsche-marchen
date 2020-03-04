@@ -21,6 +21,10 @@ axios.get("/marchen.json").then(({ data }) => {
             }
         },
         {
+            path: "/danke",
+            component: window.httpVueLoader("/components/Danke.vue")
+        },
+        {
             path: "/*",
             component: { template: "<h1>Seite nicht gefunden!</h1>" }
         }
@@ -40,11 +44,8 @@ axios.get("/marchen.json").then(({ data }) => {
     const app = new Vue({
         data() {
             return {
-                marchenList: {}
+                marchenList: data
             };
-        },
-        mounted() {
-            axios.get("/marchen.json").then(({ data }) => (this.marchenList = data));
         },
         router: router
     }).$mount("#app");

@@ -48,3 +48,7 @@ body {
 .container {
     padding-top: 10px;
 }
+
+textarea {
+    display: block;
+}
