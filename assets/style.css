@@ -6,6 +6,10 @@ html {
     padding: 5rem;
 }
 
+.bg-dark {
+    background: linear-gradient( 90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 0.8701855742296919) 23%, rgba(0, 212, 255, 1) 100%);
+}
+
 body {
     background: url("/assets/images/bg.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
