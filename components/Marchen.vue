@@ -64,25 +64,44 @@
 module.exports = {
   data() {
     return {
-      marchen: {}
+      marchen: {},
+      found: {}
     };
   },
+  props: {
+    marchens: Array
+  },
   mounted() {
-    axios.get("/marchen.json").then(({ data }) => {
-      found = data.find(e => e.id == this.$route.params.id);
-      this.marchen = found
-        ? found
+    if (this.marchens) {
+      this.found = this.marchens.find(e => e.id == this.$route.params.id);
+      this.marchen = this.found
+        ? this.found
         : { name: "Nicht gefunden!", id: 0, text: {} };
-    });
+    } else {
+      axios.get("/marchen.json").then(({ data }) => {
+        console.log("ididit");
+        this.found = data.find(e => e.id == this.$route.params.id);
+        this.marchen = this.found
+          ? this.found
+          : { name: "Nicht gefunden!", id: 0, text: {} };
+      });
+    }
   },
   beforeRouteUpdate(to, from, next) {
-    axios.get("/marchen.json").then(({ data }) => {
-      found = data.find(e => e.id == this.$route.params.id);
-      console.log(found);
-      this.marchen = found
-        ? found
+    if (this.marchens) {
+      this.found = this.marchens.find(e => e.id == this.$route.params.id);
+      this.marchen = this.found
+        ? this.found
         : { name: "Nicht gefunden!", id: 0, text: {} };
-    });
+    } else {
+      axios.get("/marchen.json").then(({ data }) => {
+        this.found = data.find(e => e.id == this.$route.params.id);
+        this.marchen = this.found
+          ? this.found
+          : { name: "Nicht gefunden!", id: 0, text: {} };
+      });
+    }
+
     next();
   }
 };
@@ -119,5 +138,9 @@ p {
 h1 {
   margin-top: 2rem;
   text-align: center;
+}
+.image {
+  margin: auto;
+  display: block;
 }
 </style>
