@@ -28,6 +28,10 @@ body {
     height: 100%;*/
 }
 
+.dropdown-menu {
+    background: inherit;
+}
+
 #app {
     padding: 0.2rem;
 }

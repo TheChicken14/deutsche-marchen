@@ -1,9 +1,9 @@
 <template>
-  <div class="header">
+  <div class="header fadeIn">
     <h1>{{ title }}</h1>
     <p>
-      Willkommen! Klieke <router-link to="/marchen">hier</router-link> vor eine
-      Liste von die Märchens.
+      Willkommen! Klieken Sie <router-link to="/marchen">hier</router-link> vor
+      eine Liste von die Märchens.
     </p>
   </div>
 </template>

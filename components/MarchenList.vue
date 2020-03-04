@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="marchen">
-      <h1>Diese sind die Märchen von H2DU2</h1>
+      <h1>Das sind die Märchen von H2DU2</h1>
       <ul>
         <li v-for="marchen in marchen" v-bind:key="marchen.name">
           <router-link v-bind:to="'/marchen/' + marchen.id">{{

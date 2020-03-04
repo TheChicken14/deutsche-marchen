@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/assets/style.css">
     <link rel="stylesheet" href="/assets/js/vendor/bootstrap.min.css" />
     <link rel="stylesheet" href="/assets/js/vendor/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="/assets/animation.css" />
     <script src="https://unpkg.com/vue/dist/vue.js"></script>
     <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
     <script src="https://unpkg.com/http-vue-loader"></script>
@@ -29,9 +30,9 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Märchen
+                            Märchens
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <div class="dropdown-menu animate fadeIn" aria-labelledby="navbarDropdownMenuLink">
                             <router-link class="dropdown-item" to="/marchen">Märchen</router-link>
                             <router-link v-for="marchen in marchenList" v-bind:key="marchen.id" v-bind:to="'/marchen/'+marchen.id" class="dropdown-item">{{ marchen.name }}
                             </router-link>
