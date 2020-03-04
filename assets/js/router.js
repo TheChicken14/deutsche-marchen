@@ -15,7 +15,7 @@ const routes = [{
     },
     {
         path: "/*",
-        component: { template: '<h1>Seite nicht gefunden!</h1>' }
+        component: { template: "<h1>Seite nicht gefunden!</h1>" }
     }
 ];
 
@@ -23,7 +23,8 @@ const routes = [{
 // You can pass in additional options here, but let's
 // keep it simple for now.
 const router = new VueRouter({
-    routes
+    routes,
+    linkExactActiveClass: "active"
 });
 
 // 4. Create and mount the root instance.
