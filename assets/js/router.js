@@ -49,6 +49,7 @@ axios.get("/marchen.json").then(({ data }) => {
         },
         router: router
     }).$mount("#app");
+    Vue.component("emailform", window.httpVueLoader("/components/sendEmail.vue"));
 
     // Now the app has started!
 });
