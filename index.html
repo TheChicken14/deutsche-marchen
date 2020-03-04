@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Märchen</title>
+    <meta name="description" content="Deutsche Märchen">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="stylesheet" href="/assets/js/vendor/bootstrap.min.css" />
+    <link rel="stylesheet" href="/assets/js/vendor/bootstrap-grid.min.css" />
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+    <script src="https://unpkg.com/http-vue-loader"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <router-link class="navbar-brand" to="/">Märchen</router-link>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <router-link class="nav-link" to="/">Home</router-link>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Märchen
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <router-link class="dropdown-item" to="/marchen">Märchen</router-link>
+                            <router-link v-for="marchen in marchenList" v-bind:key="marchen.id" v-bind:to="'/marchen/'+marchen.id" class="dropdown-item">{{ marchen.name }}
+                            </router-link>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="row no-gutters">
+            <div class="container">
+                <router-view></router-view>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container" style="padding-top: 0px;">
+            <span class="text-muted"></span>
+        </div>
+    </footer>
+    <script src="/assets/js/vendor/jquery.min.js"></script>
+    <script src="/assets/js/vendor/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/router.js"></script>
+</body>
+
+</html>

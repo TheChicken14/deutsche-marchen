@@ -1,0 +1,13 @@
+[
+    { "name": "Frau Holle", "id": 1, "text": {}, "image": "" },
+    { "name": "Der Froshkönig", "id": 2, "text": {}, "image": "" },
+    { "name": "Ashenputtel", "id": 3, "text": {}, "image": "" },
+    { "name": "Dornröshen", "id": 4, "text": {}, "image": "" },
+    { "name": "Rotkäppchen", "id": 5, "text": {}, "image": "" },
+    { "name": "Rapunzel", "id": 6, "text": {}, "image": "" },
+    { "name": "Tischlein deck dich", "id": 7, "text": {}, "image": "" },
+    { "name": "Schneewittchen", "id": 8, "text": {}, "image": "" },
+    { "name": "Rumpelstilzchen", "id": 9, "text": {}, "image": "" },
+    { "name": "Die Bremer Stadtmusikanten", "id": 10, "text": {}, "image": "" },
+    { "name": "Hänsel un Gretel", "id": 11, "text": {}, "image": "" }
+]
