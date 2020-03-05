@@ -1,65 +1,48 @@
 [{
-        "name": "Frau Holle",
-        "id": 1,
-        "text": {},
-        "image": ""
-    },
-    {
-        "name": "Der Froshkönig",
-        "id": 2,
-        "text": {},
-        "image": ""
-    },
-    {
         "name": "Ashenputtel",
+        "kinder": "Anne, Diede, Boris & Ruben",
         "id": 3,
         "text": {},
         "image": ""
     },
     {
         "name": "Dornröshen",
+        "kinder": "Evi, Milou & Mara",
         "id": 4,
         "text": {},
         "image": ""
     },
     {
         "name": "Rotkäppchen",
+        "kinder": "Wisse, Hidde, Milan & Milan",
         "id": 5,
         "text": {},
         "image": ""
     },
     {
         "name": "Rapunzel",
+        "kinder": "Jacky, Lune, Lieve & Bart",
         "id": 6,
         "text": {},
         "image": ""
     },
     {
         "name": "Tischlein deck dich",
+        "kinder": "Mayk, Joep, Quin & Ruby",
         "id": 7,
         "text": {},
         "image": ""
     },
     {
         "name": "Schneewittchen",
+        "kinder": "Valentijn, Sven & Tijn",
         "id": 8,
         "text": {},
         "image": ""
     },
     {
-        "name": "Rumpelstilzchen",
-        "id": 9,
-        "text": {},
-        "image": ""
-    },
-    {
-        "name": "Die Bremer Stadtmusikanten",
-        "id": 10,
-        "text": {},
-        "image": ""
-    },
-    {
         "name": "Hänsel und Gretel",
+        "kinder": "Nuri, Camiel & Erin",
         "id": 11,
         "text": {},
         "image": ""
