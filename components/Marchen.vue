@@ -20,16 +20,7 @@
         </div>
       </div>
       <div class="col-md-4 sidebar">
-        <img
-          v-if="marchen.image && marchen.height"
-          class="image"
-          v-bind:src="marchen.image"
-        />
-        <img
-          v-else-if="marchen.image"
-          class="image"
-          v-bind:src="marchen.image"
-        />
+        <img v-if="marchen.image" class="image" v-bind:src="marchen.image" />
         <img v-else class="image" src="/assets/images/404img.jpg" />
         <div v-if="marchen.puzzle">
           <hr />
