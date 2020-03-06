@@ -7,7 +7,13 @@
           <h4>{{ marchen.kinder }}</h4>
         </div>
         <div class="text">
-          <p v-if="marchen.text.text">{{ marchen.text.text }}</p>
+          <div v-if="marchen.text[0]">
+            <div v-for="article in marchen.text" v-bind:key="article.title">
+              <h2>{{ article.title }}</h2>
+              <p>{{ article.text }}</p>
+              <hr />
+            </div>
+          </div>
           <p v-else>
             kein Text!
           </p>
@@ -16,13 +22,11 @@
       <div class="col-md-4 sidebar">
         <img
           v-if="marchen.image && marchen.height"
-          v-bind:style="'height: ' + marchen.height"
           class="image"
           v-bind:src="marchen.image"
         />
         <img
           v-else-if="marchen.image"
-          style="height: 500px"
           class="image"
           v-bind:src="marchen.image"
         />
@@ -30,11 +34,7 @@
         <div v-if="marchen.puzzle">
           <hr />
           <h3>Puzzle</h3>
-          <img
-            class="puzzle"
-            v-bind:src="marchen.puzzle.url"
-            v-bind:style="'width:' + marchen.puzzle.width"
-          />
+          <img class="puzzle" v-bind:src="marchen.puzzle.url" />
         </div>
       </div>
     </div>
@@ -95,16 +95,10 @@ module.exports = {
   .sidebar {
     margin-top: 3rem;
   }
-  .image {
-    height: 18rem;
-  }
 }
 @media (min-width: 768px) {
   .sidebar {
     padding-top: 1rem;
-  }
-  .image {
-    height: 20rem;
   }
 }
 
@@ -128,9 +122,9 @@ module.exports = {
   padding: 0.5rem;
   text-align: center;
 }
-.image {
-  margin: auto;
-  display: block;
+img {
+  width: 100%;
+  height: auto;
 }
 h3 {
   text-align: center;
