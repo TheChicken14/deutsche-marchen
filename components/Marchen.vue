@@ -59,7 +59,18 @@
         </div>
       </div>
       <div class="col-md-4 sidebar">
-        <img v-if="marchen.image" class="image" v-bind:src="marchen.image" />
+        <img
+          v-if="marchen.image && marchen.height"
+          v-bind:style="'height: ' + marchen.height"
+          class="image"
+          v-bind:src="marchen.image"
+        />
+        <img
+          v-else-if="marchen.image"
+          style="height: 500px"
+          class="image"
+          v-bind:src="marchen.image"
+        />
         <img v-else class="image" src="/assets/images/404img.jpg" />
       </div>
     </div>
@@ -143,7 +154,7 @@ module.exports = {
   padding: 2rem;
   background-color: white;
   border-radius: 10px;
-  margin-top: 10px;
+  margin-top: 1rem;
 }
 /*p {
   margin: 2rem;

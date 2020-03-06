@@ -21,10 +21,6 @@ axios.get("/marchen.json").then(({ data }) => {
             }
         },
         {
-            path: "/danke",
-            component: window.httpVueLoader("/components/Danke.vue")
-        },
-        {
             path: "/*",
             component: { template: "<h1>Seite nicht gefunden!</h1>" }
         }

@@ -3,28 +3,29 @@
         "kinder": "Anne, Diede, Boris & Ruben",
         "id": 3,
         "text": {},
-        "image": ""
+        "image": "/assets/images/marchen/assenputtel.png"
     },
     {
-        "name": "Dornröshen",
+        "name": "Dornröschen",
         "kinder": "Evi, Milou & Mara",
         "id": 4,
         "text": {},
-        "image": ""
+        "image": "/assets/images/marchen/dornroshen.png"
     },
     {
         "name": "Rotkäppchen",
         "kinder": "Wisse, Hidde, Milan & Milan",
         "id": 5,
         "text": {},
-        "image": ""
+        "image": "/assets/images/marchen/rotkappchen.png"
     },
     {
         "name": "Rapunzel",
         "kinder": "Jacky, Lune, Lieve & Bart",
         "id": 6,
         "text": {},
-        "image": ""
+        "image": "/assets/images/marchen/rapunzel.png",
+        "height": "25rem"
     },
     {
         "name": "Tischlein deck dich",
