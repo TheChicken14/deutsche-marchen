@@ -121,10 +121,6 @@ module.exports = {
   border-radius: 10px;
   margin-top: 1rem;
 }
-/*p {
-  margin: 2rem;
-  margin-bottom: 3rem;
-}*/
 .name {
   background-color: white;
   border-radius: 10px;

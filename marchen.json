@@ -50,7 +50,12 @@
         "kinder": "Valentijn, Sven & Tijn",
         "id": 8,
         "text": {},
-        "image": ""
+        "image": "/assets/images/marchen/schneewittchen.png",
+        "height": "17rem",
+        "puzzle": {
+            "url": "/assets/images/marchen/schneewittchen/puzzel.png",
+            "width": "22rem"
+        }
     },
     {
         "name": "Hänsel und Gretel",
