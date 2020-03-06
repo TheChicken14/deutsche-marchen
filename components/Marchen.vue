@@ -9,52 +9,7 @@
         <div class="text">
           <p v-if="marchen.text.text">{{ marchen.text.text }}</p>
           <p v-else>
-            Aut ut placeat rerum rerum ducimus modi sequi. Et et quae qui. Ipsam
-            voluptatem culpa omnis. Est rerum libero quam omnis veniam enim.
-            Debitis rerum repellendus commodi accusamus ducimus doloremque.
-            Dolorem sit facilis ut voluptatem. Eos perspiciatis et autem. Animi
-            in rem similique libero autem. At ut magnam quo ut ab laudantium
-            nemo unde. Dolor similique nostrum at. Aliquam temporibus dicta quas
-            dicta ut eaque magni. Autem in voluptates expedita porro. Quasi sunt
-            eaque accusantium sed quia incidunt. Error eum exercitationem
-            tempora eligendi. Unde aut vitae perferendis nulla blanditiis. Omnis
-            quam et aliquid qui. Eligendi asperiores aut iusto beatae
-            architecto. Numquam minima tempore minima sed. Beatae et animi ab
-            repudiandae magnam assumenda et. Et minus nesciunt labore nihil
-            placeat occaecati ut. Occaecati voluptates perspiciatis asperiores
-            aut laborum nisi cumque. Iure commodi nobis doloremque aliquam sit.
-            Alias in nam dicta dolor inventore est. Illo et amet autem doloribus
-            hic. Aut ut placeat rerum rerum ducimus modi sequi. Et et quae qui.
-            Ipsam voluptatem culpa omnis. Est rerum libero quam omnis veniam
-            enim. Debitis rerum repellendus commodi accusamus ducimus
-            doloremque. Dolorem sit facilis ut voluptatem. Eos perspiciatis et
-            autem. Animi in rem similique libero autem. At ut magnam quo ut ab
-            laudantium nemo unde. Dolor similique nostrum at. Aliquam temporibus
-            dicta quas dicta ut eaque magni. Autem in voluptates expedita porro.
-            Quasi sunt eaque accusantium sed quia incidunt. Error eum
-            exercitationem tempora eligendi. Unde aut vitae perferendis nulla
-            blanditiis. Omnis quam et aliquid qui. Eligendi asperiores aut iusto
-            beatae architecto. Numquam minima tempore minima sed. Beatae et
-            animi ab repudiandae magnam assumenda et. Et minus nesciunt labore
-            nihil placeat occaecati ut. Occaecati voluptates perspiciatis
-            asperiores aut laborum nisi cumque. Iure commodi nobis doloremque
-            aliquam sit. Alias in nam dicta dolor inventore est. Illo et amet
-            autem doloribus hic. Aut ut placeat rerum rerum ducimus modi sequi.
-            Et et quae qui. Ipsam voluptatem culpa omnis. Est rerum libero quam
-            omnis veniam enim. Debitis rerum repellendus commodi accusamus
-            ducimus doloremque. Dolorem sit facilis ut voluptatem. Eos
-            perspiciatis et autem. Animi in rem similique libero autem. At ut
-            magnam quo ut ab laudantium nemo unde. Dolor similique nostrum at.
-            Aliquam temporibus dicta quas dicta ut eaque magni. Autem in
-            voluptates expedita porro. Quasi sunt eaque accusantium sed quia
-            incidunt. Error eum exercitationem tempora eligendi. Unde aut vitae
-            perferendis nulla blanditiis. Omnis quam et aliquid qui. Eligendi
-            asperiores aut iusto beatae architecto. Numquam minima tempore
-            minima sed. Beatae et animi ab repudiandae magnam assumenda et. Et
-            minus nesciunt labore nihil placeat occaecati ut. Occaecati
-            voluptates perspiciatis asperiores aut laborum nisi cumque. Iure
-            commodi nobis doloremque aliquam sit. Alias in nam dicta dolor
-            inventore est. Illo et amet autem doloribus hic.
+            kein Text!
           </p>
         </div>
       </div>
