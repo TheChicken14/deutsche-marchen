@@ -27,6 +27,15 @@
           v-bind:src="marchen.image"
         />
         <img v-else class="image" src="/assets/images/404img.jpg" />
+        <div v-if="marchen.puzzle">
+          <hr />
+          <h3>Puzzle</h3>
+          <img
+            class="puzzle"
+            v-bind:src="marchen.puzzle.url"
+            v-bind:style="'width:' + marchen.puzzle.width"
+          />
+        </div>
       </div>
     </div>
   </div>
@@ -103,6 +112,7 @@ module.exports = {
   background-color: white;
   border-radius: 10px;
   margin-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .text {
@@ -123,6 +133,13 @@ module.exports = {
   text-align: center;
 }
 .image {
+  margin: auto;
+  display: block;
+}
+h3 {
+  text-align: center;
+}
+.puzzle {
   margin: auto;
   display: block;
 }

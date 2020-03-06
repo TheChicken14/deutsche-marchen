@@ -3,7 +3,11 @@
         "kinder": "Anne, Diede, Boris & Ruben",
         "id": 3,
         "text": {},
-        "image": "/assets/images/marchen/assenputtel.png"
+        "image": "/assets/images/marchen/assenputtel.png",
+        "puzzle": {
+            "url": "/assets/images/marchen/assenputtel/puzzel.png",
+            "width": "20rem"
+        }
     },
     {
         "name": "Dornröschen",
@@ -17,7 +21,10 @@
         "kinder": "Wisse, Hidde, Milan & Milan",
         "id": 5,
         "text": {},
-        "image": "/assets/images/marchen/rotkappchen.png"
+        "image": "/assets/images/marchen/rotkappchen.png",
+        "puzzle": {
+            "url": "/assets/images/marchen/rotkappchen/puzzel.png"
+        }
     },
     {
         "name": "Rapunzel",
@@ -25,7 +32,11 @@
         "id": 6,
         "text": {},
         "image": "/assets/images/marchen/rapunzel.png",
-        "height": "25rem"
+        "height": "25rem",
+        "puzzle": {
+            "url": "/assets/images/marchen/rapunzel/puzzel.png",
+            "width": "17rem"
+        }
     },
     {
         "name": "Tischlein deck dich",

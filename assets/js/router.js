@@ -1,4 +1,5 @@
 axios.get("/marchen.json").then(({ data }) => {
+    Vue.component("Sidebar", window.httpVueLoader("/components/Sidebar.vue"));
     const routes = [{
             path: "/",
             component: window.httpVueLoader("/components/Header.vue"),
