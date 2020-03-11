@@ -52,9 +52,14 @@
         "kinder": "Wisse, Hidde, Milan & Milan",
         "id": 5,
         "text": [{
-            "title": "Großmutter von Rötkappchen aufgegessen",
-            "text": "Am Freitag sechs März ist die Großmutter von Rötkappchen aufgegessen von der Wolf. Danach Rötkappchen auch aufgegessen von der Wolf. Rötkappchen und die Großmutter saßen beides fest in der Bauch von der Wolf. Am Ende kam der Jäger um sie zu befreien. Er schnitt der Wolf offen und die Großmutter und Rötkappchen sprang heraus. Sie waren beides lebendig. Mit der Wolf geht es auch gut. Alles lief gut und sie gingen zusammen Kekse essen. Ende"
-        }],
+                "title": "Großmutter von Rötkappchen aufgegessen",
+                "text": "Am Freitag sechs März ist die Großmutter von Rötkappchen aufgegessen von der Wolf. Danach Rötkappchen auch aufgegessen von der Wolf. Rötkappchen und die Großmutter saßen beides fest in der Bauch von der Wolf. Am Ende kam der Jäger um sie zu befreien. Er schnitt der Wolf offen und die Großmutter und Rötkappchen sprang heraus. Sie waren beides lebendig. Mit der Wolf geht es auch gut. Alles lief gut und sie gingen zusammen Kekse essen. Ende"
+            },
+            {
+                "title": "Rotkäppchen wohnen",
+                "image": "/assets/images/marchen/rotkappchen/wohnen.png"
+            }
+        ],
         "image": ["/assets/images/marchen/rotkappchen.png"],
         "puzzle": {
             "url": "/assets/images/marchen/rotkappchen/puzzel.png"
