@@ -70,7 +70,7 @@
         "kinder": "Jacky, Lune, Lieve & Bart",
         "id": 6,
         "text": [{
-                "title": "Rapunzel",
+                "title": "Rapunzel (Lieve)",
                 "text": "Rapunzel hat ein schönes Violette Kleid. Manchmal hat sie auch lila Schuhe an, aber meistens hat sie keine Schuhe an. Sie hat  blonde/ goldene megalange Haare. <img src='/assets/images/marchen/rapunzel/art1.png' />"
             },
             {
@@ -123,7 +123,9 @@
         "name": "Hänsel und Gretel",
         "kinder": "Nuri, Camiel & Erin",
         "id": 11,
-        "text": {},
-        "image": [""]
+        "text": [{
+            "title": "Interview von Hans",
+            "text": "<ol><li>Was ist ihr Lieblingsessen? : Ein Keks mit Kandiszucker.</li><li>Ist Gretel deine Schwester? : Ja Gretel ist meine Schwester.</li><li>Who wohnst du?: ich wohne? : Ich lebe in den Walden.</li><li>Mit wem lebe Sie zu Hause? : Mit meine Mutter, Vater und Schwester Gretel.</li><li>Wie alt bist du? : Ich bin dreiundfünfzig Jahre alt.</li><li>Wie war das Essen im das Süßwarenhaus? : Es war lecker.</li><li>Hatten sie Angst? : Nein ich fühlte mich gut.</li><li>War die Stiefmutter nett? : Ja die Stiefmutter war nett.</li><li>Waren Sie hungrig? : ein bisschen.</li><li>Haben sie Haustiere? : Ja ich habe eine Fische.</li></ol>"
+        }]
     }
 ]
