@@ -1,19 +1,51 @@
 [{
-        "name": "Ashenputtel",
+        "name": "Aschenputtel",
         "kinder": "Anne, Diede, Boris & Ruben",
         "id": 3,
-        "text": {},
-        "image": "/assets/images/marchen/assenputtel.png",
+        "text": [],
+        "image": ["/assets/images/marchen/aschenputtel.png"],
         "puzzle": {
-            "url": "/assets/images/marchen/assenputtel/puzzel.png"
+            "url": "/assets/images/marchen/aschenputtel/puzzel.png"
         }
     },
     {
         "name": "Dornröschen",
         "kinder": "Evi, Milou & Mara",
         "id": 4,
-        "text": {},
-        "image": "/assets/images/marchen/dornroshen.png"
+        "text": [{
+                "title": "Horoskop",
+                "text": "<img src='/assets/images/marchen/dornroshen/horoscoop.png' class='image'/>"
+            },
+            {
+                "title": "Dornröschen",
+                "image": "/assets/images/marchen/dornroshen/art1.png",
+                "text": "Die 3 Feen heben Aurora den Namen Dornröschen gegeben. Aurora ist eine Prinzessin, die von ihren Talent verzaubert sein wird. Sie ist sehr Süb und neugierig und liebt Tiere langes Kleid, das zu Boden kommt. Diese Prinzessin ist sehr schön! Sie kann auch sehr schön singen, was sie gerne mit den Vögeln im Garten macht. "
+            },
+            {
+                "title": "Prinz Filip",
+                "image": "/assets/images/marchen/dornroshen/art2.png",
+                "text": "Dieser Prinz ist total verliebt in Dornröschen. Er ist sehr mutig, weil er alles tut, um die schlafende Schönheit vom Zauber zu befreien. Er trägt einen roten Hut und behält. Der Rest seiner Kleidung ist schwarz und grau. "
+            },
+            {
+                "title": "Feen",
+                "image": "/assets/images/marchen/dornroshen/art3.png",
+                "text": "Das sind die drei Feen. Sie können mit ihrem Zauberstab Stöcke zaubern. Sie haben alle eine andere Kleiderfarbe. Die Farben rosa, grün und blau. Sie sind süß und hilfsbereit."
+            },
+            {
+                "title": "Maleficent",
+                "image": "/assets/images/marchen/dornroshen/art4.png",
+                "text": "Dies ist die gemeine Hexe, die auch zaubern kann. Sie trägt schwarz-lila Kleidung. Sie eist unfreundlich und mag Menschen. Sie spricht daher auch schlechte Zauber."
+            },
+            {
+                "title": "koning",
+                "image": "/assets/images/marchen/dornroshen/art5.png",
+                "text": "Dies ist der Vater von Dornröschen. Als der Zauber von der Hexe ausgsprochen wurde, verbrannte er alle sich drehenden. Räder. Er ist shr besorgt und ein angenehmer König."
+            }
+        ],
+        "image": ["/assets/images/marchen/dornroshen.png"],
+        "puzzle": {
+            "url": "/assets/images/marchen/dornroshen/puzzel.png"
+        }
     },
     {
         "name": "Rotkäppchen",
@@ -23,7 +55,7 @@
             "title": "Großmutter von Rötkappchen aufgegessen",
             "text": "Am Freitag sechs März ist die Großmutter von Rötkappchen aufgegessen von der Wolf. Danach Rötkappchen auch aufgegessen von der Wolf. Rötkappchen und die Großmutter saßen beides fest in der Bauch von der Wolf. Am Ende kam der Jäger um sie zu befreien. Er schnitt der Wolf offen und die Großmutter und Rötkappchen sprang heraus. Sie waren beides lebendig. Mit der Wolf geht es auch gut. Alles lief gut und sie gingen zusammen Kekse essen. Ende"
         }],
-        "image": "/assets/images/marchen/rotkappchen.png",
+        "image": ["/assets/images/marchen/rotkappchen.png"],
         "puzzle": {
             "url": "/assets/images/marchen/rotkappchen/puzzel.png"
         }
@@ -32,8 +64,32 @@
         "name": "Rapunzel",
         "kinder": "Jacky, Lune, Lieve & Bart",
         "id": 6,
-        "text": {},
-        "image": "/assets/images/marchen/rapunzel.png",
+        "text": [{
+                "title": "Rapunzel",
+                "text": "Rapunzel hat ein schönes Violette Kleid. Manchmal hat sie auch lila Schuhe an, aber meistens hat sie keine Schuhe an. Sie hat  blonde/ goldene megalange Haare. <img src='/assets/images/marchen/rapunzel/art1.png' />"
+            },
+            {
+                "title": "Hexe Gothel",
+                "text": "Gothel hat ein dunkelrotes Kleid mit goldenen Details.<br>Sie hat schwarze lockiges Haar.<br>Wenn sie nach draußen geht trägt sie einen schwarzen Mantel über dem Kleid und hat einen braunen Korb dabei. <img src='/assets/images/marchen/rapunzel/art2.png' />"
+            },
+            {
+                "title": "Kamelionen-Pascal",
+                "text": "Das Kamelion ist normalerweise grün, aber wenn er Angst hat wird er die Farbe seiner Umgebung.<br>Er hat große runde Augen und eine lange Zunge. <img src='/assets/images/marchen/rapunzel/art3.png' />"
+            },
+            {
+                "title": "Flynn",
+                "text": "Flynn trägt eine weiße Bluse und darüber eine blaue Mantel mit kurzen Ärmel.<br>Und eine braune Hose mit eine brauner tasche. <img src='/assets/images/marchen/rapunzel/art4.png' />"
+            },
+            {
+                "title": "Pferd Maximus",
+                "text": "Maximus ist ein weißes Pferd.<br>Er hat einen braunen Sattel mit ein bisschen rot mit braunen Zügeln. <img src='/assets/images/marchen/rapunzel/art5.png' />"
+            },
+            {
+                "title": "Horoskop",
+                "text": ""
+            }
+        ],
+        "image": ["/assets/images/marchen/rapunzel.png"],
         "puzzle": {
             "url": "/assets/images/marchen/rapunzel/puzzel.png"
         }
@@ -50,7 +106,10 @@
         "kinder": "Valentijn, Sven & Tijn",
         "id": 8,
         "text": {},
-        "image": "/assets/images/marchen/schneewittchen.png",
+        "image": [
+            "/assets/images/marchen/schneewittchen.png",
+            "/assets/images/marchen/schneewittchen/reclame.png"
+        ],
         "puzzle": {
             "url": "/assets/images/marchen/schneewittchen/puzzel.png"
         }
@@ -60,6 +119,6 @@
         "kinder": "Nuri, Camiel & Erin",
         "id": 11,
         "text": {},
-        "image": ""
+        "image": [""]
     }
 ]

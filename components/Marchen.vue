@@ -10,7 +10,8 @@
           <div v-if="marchen.text[0]">
             <div v-for="article in marchen.text" v-bind:key="article.title">
               <h2>{{ article.title }}</h2>
-              <p>{{ article.text }}</p>
+              <img v-bind:src="article.image" class="articleimg" />
+              <p v-html="article.text"></p>
               <hr />
             </div>
           </div>
@@ -20,10 +21,14 @@
         </div>
       </div>
       <div class="col-md-4 sidebar">
-        <img v-if="marchen.image" class="image" v-bind:src="marchen.image" />
+        <div v-if="marchen.image">
+          <div v-for="image in marchen.image" v-bind:key="image">
+            <img class="image" v-bind:src="image" />
+            <hr />
+          </div>
+        </div>
         <img v-else class="image" src="/assets/images/404img.jpg" />
         <div v-if="marchen.puzzle">
-          <hr />
           <h3>Puzzle</h3>
           <img class="puzzle" v-bind:src="marchen.puzzle.url" />
         </div>
@@ -113,7 +118,13 @@ module.exports = {
   padding: 0.5rem;
   text-align: center;
 }
-img {
+.text img {
+  display: block;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+.image,
+.puzzle {
   width: 100%;
   height: auto;
 }
@@ -123,5 +134,8 @@ h3 {
 .puzzle {
   margin: auto;
   display: block;
+}
+.articleimg {
+  margin-bottom: 1rem;
 }
 </style>
