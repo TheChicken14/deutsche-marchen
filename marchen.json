@@ -110,7 +110,10 @@
         "name": "Schneewittchen",
         "kinder": "Valentijn, Sven & Tijn",
         "id": 8,
-        "text": {},
+        "text": [{
+            "title": "Tijn",
+            "text": "1. Wer ist Ihr Lieblings-Zwerg? A: Glücklich, weil er sehr glücklich ist<br>2. Welchen Zwerg hassen Sie am meisten? A: Mürrisch, weil er die Anwesenheit von Schneewittchen nicht mag<br>3.Wie war Ihr Vater? A: Der Brei, den ich gestohlen habe, war sehr schmackhaft.<br>4. Wie kann man mit Tieren sprechen? A: Ich weiß es nicht genau, denn es ist aus dem Nichts heraus passiert.<br>5. Sind Sie glücklich mit dem Prinzen, der Sie aufgeweckt hat? A: Ja, ich finde, er ist ein sehr schöner Prinz und ein süßer Mann.<br>6. Warum wollte die Königin, dass Schneewittchen stirbt? A: Weil Schneewittchen das schönste im Land war und die Königin sehr eifersüchtig darauf war.<br>7. Was ist ihre lieblings fabre? A: Blau<br>8. Wie war es, als Sie noch bei Ihrer Stiefmutter lebten? A: Ich fand es sehr beängstigend und deshalb bin ich vor meiner Stiefmutter weggelaufen.<br>9. Wer alt bist du? A: Ich bin 14 Jahre alt.<br>10. Hast du Geschwister? A: Nein, ich habe keine Geschwister"
+        }],
         "image": [
             "/assets/images/marchen/schneewittchen.png",
             "/assets/images/marchen/schneewittchen/reclame.png"
