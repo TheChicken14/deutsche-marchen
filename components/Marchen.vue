@@ -10,7 +10,7 @@
           <div v-if="marchen.text[0]">
             <div v-for="article in marchen.text" v-bind:key="article.title">
               <h2>{{ article.title }}</h2>
-              <img v-bind:src="article.image" class="articleimg" />
+              <img v-bind:src="article.image" class="articleimg image" />
               <p v-html="article.text"></p>
               <hr />
             </div>
