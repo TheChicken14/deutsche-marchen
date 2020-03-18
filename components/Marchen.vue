@@ -10,7 +10,24 @@
           <div v-if="marchen.text[0]">
             <div v-for="article in marchen.text" v-bind:key="article.title">
               <h2>{{ article.title }}</h2>
-              <img v-bind:src="article.image" class="articleimg image" />
+              <img
+                v-if="article.image && article.text"
+                v-bind:src="article.image"
+                class="articleimg"
+              />
+              <img v-else v-bind:src="article.image" class="articleimg image" />
+              <div v-if="article.list">
+                <ol v-if="article.list.type == 'ordered'">
+                  <li v-for="item in article.list.items" v-bind:key="item">
+                    {{ item }}
+                  </li>
+                </ol>
+                <ul v-if="article.list.type == 'unordered'">
+                  <li v-for="item in article.list.items" v-bind:key="item">
+                    {{ item }}
+                  </li>
+                </ul>
+              </div>
               <p v-html="article.text"></p>
               <hr />
             </div>

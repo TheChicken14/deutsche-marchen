@@ -2,7 +2,35 @@
         "name": "Aschenputtel",
         "kinder": "Anne, Diede, Boris & Ruben",
         "id": 3,
-        "text": [],
+        "text": [{
+                "title": "Interview Aschenputtel (Anne Bos)",
+                "list": {
+                    "type": "ordered",
+                    "items": [
+                        "Wie geht’s dir? Antwort: Nun, unter diesen Umständen läuft es nicht so gut.",
+                        "Was sind dann die Umstände? Antwort: Dass meine Stiefschwester einen Prinzen heiraten wird und ich dafür arbeiten muss.",
+                        "Wie haben Sie das Zusammenleben mit Aschenputtel empfunden? Antwort: Ich hielt es für praktisch weil ich mein Zimmer nicht selbst aufräumen musste das hasse ich so sehr.",
+                        "Wie alt waren Sie als Sie bei Aschenputtel eingezogen sind? Antwort: Ich war 9 Jahre alt.",
+                        "Wo wohnen Sie im Moment? Antwort: In dem Schuppen im Palast mit meiner Schwester und meiner Mutter.",
+                        "Was dachten Sie als Aschenputtel den Prinzen heiratete. Antwort: Die war schrecklich ich durfte nicht einmal ein Brautjungfer sein aber ich musste im Keller arbeiten.",
+                        "Ein ganz anderes Thema aber ich habe gehört dass Sie Mode sehr mögen. Tragen Sie noch immer die Kleidung, die Sie im Palast trugen? Antwort: Ja, nun ich darf auch einkaufen.",
+                        "Und würden Sie später gerne was mit Mode studieren? Antwort: Ja, das würde ich gerne aber ich muss erst die Schule beenden, und dann würde ich gerne.",
+                        "Und was würde Ihre Schwester tun, wenn sie die Schule beenden würde? Antwort: Ich habe keine Ahnung. Sie weiß es noch nicht.",
+                        "Nun, das war das Interview, vielen Dank! Haben Sie noch Fragen? Antwort: Nein, ich danke Ihnen."
+                    ]
+                }
+            },
+            {
+                "title": "Der tachebuch von Patin (Diede)",
+                "image": "/assets/images/marchen/aschenputtel/art1.png",
+                "text": "Liebe Tagebuch, Heute ist eine gute tag, ich mach Aschenputtel helfen, allein Aschenputtel weißt das noch nicht.  Ich habe Jahre wartete, und heute ist die tag.  Zuerst ich mache eine Kaffee, mit spitzbueben (ich liebe spitzbueben). Ich bin so glücklich, ich habe eine neu Umhang, er ist lila. Auch ist meine Zauberstab gebrochen, aber ich habe es gemacht. Ich gehen nahr Aschenputtel Haus und ich geh wachte, ich sehe die Stiefschwestern auf dem weg naher Ball, Aschenputtel was allein Haus, ich geh narr binnen und ich mache eine Kürbis narr eine Koetz, der Mouse werden Pferde und ich mache eine Kleid vor Aschenputtel, sie ist naher der Ball gegeben und ich mache eine Kaffee, rund zwölf Uhr waren dir Stiefschwestern Thaus. Ich geh Slaven  erst Poetz ich meine Tanzen, und Kamme ich meine hären. Ich packe mein Fee Pulver und ich tu ist in meine Special Clous samen mit meine Zauberstab, ich mache eine Maske und ich bring ist an, Ich habe es genossen These tag, ich kann nicht wachten tu morgen.<br><br>Tschüss!"
+            },
+            {
+                "title": "Rezept Hochzeitstrote (Boris)",
+                "image": "/assets/images/marchen/aschenputtel/art2.png",
+                "text": "Bereit erst den Teig für. backt große Kuchen allein im Backofen, und die 2 kleine Kuchen gemeinsam. Eigelb mit kochendem Wasser aufschlagen, 100g fee pulver und Vanillezucker zufügen und weißschaumig schlagen. Eiweiß sehr steif schlagen und den restlichen fee pulver zurieseln lassen, dabei weiterschlagen, auf die Eigelbmasse häufen. Mehl, Speisestärke und Backpulver darüber sieben und alles vorsichtig unterheben. Fügen Sie auch 300 Gramm Kürbis hinzu. Fett die Springformen füllen, glatt streichen und im vorgeheizten Backofen bei 200°C 40-50 Minuten backen. <br><br>Den Kuchen mit einem Messer vom Rand lösen und auf ein Kuchengitter stürzen, auskühlen lassen. Für die Creme die weiche Butter sehr lange geschmeidig rühren, dann abwechselnd Eigelb und Puderzucker unterrühren.  im Wasserbad erwärmen, wieder etwas abkühlen lassen und in die Buttercreme rühren. Die Schokoraspel unterrühren. Mit dieser Creme alle Böden aufeinander setzen. <br><br>Für den Guss das Eiweiß mit kürbis aufschlagen, und den Puderzucker so viel Wasser zufügen, so dass eine geschmeidige, streichbare Masse entsteht. Mit roter Speisefarbe tönen. Über die dreistöckige Torte schokola  gießen und den Kuchen trocknen lassen. Um den Kuchen zu beenden, machen Sie einen Schokoladenschuh, um ihn auf den Kuchen zu legen."
+            }
+        ],
         "image": ["/assets/images/marchen/aschenputtel.png"],
         "puzzle": {
             "url": "/assets/images/marchen/aschenputtel/puzzel.png"
@@ -17,7 +45,7 @@
                 "text": "<img src='/assets/images/marchen/dornroshen/horoscoop.png' class='image'/>"
             },
             {
-                "title": "Dornröschen",
+                "title": "Dornröschen (Evi)",
                 "image": "/assets/images/marchen/dornroshen/art1.png",
                 "text": "Die 3 Feen heben Aurora den Namen Dornröschen gegeben. Aurora ist eine Prinzessin, die von ihren Talent verzaubert sein wird. Sie ist sehr Süb und neugierig und liebt Tiere langes Kleid, das zu Boden kommt. Diese Prinzessin ist sehr schön! Sie kann auch sehr schön singen, was sie gerne mit den Vögeln im Garten macht. "
             },
@@ -37,12 +65,20 @@
                 "text": "Dies ist die gemeine Hexe, die auch zaubern kann. Sie trägt schwarz-lila Kleidung. Sie eist unfreundlich und mag Menschen. Sie spricht daher auch schlechte Zauber."
             },
             {
-                "title": "koning",
+                "title": "Konig",
                 "image": "/assets/images/marchen/dornroshen/art5.png",
                 "text": "Dies ist der Vater von Dornröschen. Als der Zauber von der Hexe ausgsprochen wurde, verbrannte er alle sich drehenden. Räder. Er ist shr besorgt und ein angenehmer König."
+            },
+            {
+                "title": "Dornröschenkuchen",
+                "image": "/assets/images/marchen/dornroshen/taart.png",
+                "text": "<h3>Zutaten</h3><br><ul><li>5 Eier, geteilt</li><li>100 Gramm Mehl</li><li>25 Gramm Pudding</li><li>25 Gramm Maisstärke</li><li>150 Gramm Zucker</li><li>Prise Salz</li><li>Prise magische</li><li>rosa Blumen</li><li>Prise Glitzer</li><li>drei Schlaftabletten</li><li>(Sie können es am Spinnrad kaufen)</li><li>ein goldblondes Haar</li></ul><br><h3>Zubereitungsmethode</h3><ol><li>Heizen Sie den Backofen auf 180 ° C vor.</li><li>Eine Backform einfetten und den Boden mit Backpapier auslegen.</li><li>Sieben Sie Mehl, Pudding, Maismehl, Schlaftabletten, goldblondes Haar und Salz.</li><li>Stellen Sie sicher, dass die Eier Raumtemperatur haben. Also nicht direkt aus dem Kühlschrank.</li><p>Eiweiß und Zucker in festen Spitzen verquirlen. Stellen Sie sicher, dass Schneebesen und Schüssel fettfrei sind.</p><li>Fügen Sie das Eigelb Stück für Stück hinzu, während die Küchenmaschine auf einer niedrigen Stufe läuft. Die Mehlmischung unterheben, bis eine homogene Masse entsteht.</li><li>Legen Sie den Teig in die Form und backen Sie ihn ca. 40 Minuten im Ofen.</li><li>Fügen Sie dann die Prise Magie hinzu.</li><li>Lassen Sie den Keks in der Form kurz abkühlen, nehmen Sie ihn dann aus der Form, entfernen Sie das Backpapier und lassen Sie ihn auf einem Kuchengitter vollständig abkühlen.</li><li>Legen Sie die essbaren Röschen auf den Kuchen.</li><li>Wir etwas Glitzer hinein und du bist fertig! Ihr selbst gemachter Dornröschenkuchen! Leckeres Essen.</li></ol>"
             }
         ],
-        "image": ["/assets/images/marchen/dornroshen.png"],
+        "image": [
+            "/assets/images/marchen/dornroshen.png",
+            "/assets/images/marchen/dornroshen/reclame.png"
+        ],
         "puzzle": {
             "url": "/assets/images/marchen/dornroshen/puzzel.png"
         }
@@ -52,12 +88,37 @@
         "kinder": "Wisse, Hidde, Milan & Milan",
         "id": 5,
         "text": [{
-                "title": "Großmutter von Rotkäppchen aufgegessen",
+                "title": "Großmutter von Rotkäppchen aufgegessen (Hidde)",
                 "text": "Am Freitag sechs März ist die Großmutter von Rotkäppchen aufgegessen von der Wolf. Danach Rotkäppchen auch aufgegessen von der Wolf. Rotkäppchen und die Großmutter saßen beides fest in der Bauch von der Wolf. Am Ende kam der Jäger um sie zu befreien. Er schnitt der Wolf offen und die Großmutter und Rotkäppchen sprang heraus. Sie waren beides lebendig. Mit der Wolf geht es auch gut. Alles lief gut und sie gingen zusammen Kekse essen. Ende"
             },
             {
-                "title": "Rotkäppchen wohnen",
+                "title": "Rotkäppchen wohnen (Milan L)",
                 "image": "/assets/images/marchen/rotkappchen/wohnen.png"
+            },
+            {
+                "title": "die Modewelt (Milan V)",
+                "image": "/assets/images/marchen/rotkappchen/art1.png",
+                "text": "Rotkäppchen trägt ein schönes rotes Kleid. Das Kleid fällt auf die Knie von Rotkäppchen. Sie trägt auch weiße Schuhe, die in der Sonne scheinen. Rotkäppchen hat natürlich eine rote Mütze auf dem Kopf. "
+            },
+            {
+                "image": "/assets/images/marchen/rotkappchen/art2.png",
+                "text": "Der Wolf hat ein schönes warmes graues Fell. Es hat einen schönen Anzug darüber, die Farbe ist grau und es besteht aus sehr weichem Material. Deshalb ist der Anzug so teuer. Er hat auch eine schöne runde Brille im Gesicht, um Rotkäppchen aus der Ferne zu sehen"
+            },
+            {
+                "image": "/assets/images/marchen/rotkappchen/art3.png",
+                "text": "Oma trägt ein rot-weiß kariertes Pyjama-Shirt. Sie trägt eine blaue Pyjamahose, weil sie den ganzen Tag im Bett liegt, weil sie krank ist"
+            },
+            {
+                "image": "/assets/images/marchen/rotkappchen/art4.png",
+                "text": "Der Jäger trägt immer seine grüne Bluse. Es ist von sehr guter Qualität und von einer teuren Marke. Er hat immer einen schwarzen Gürtel, um seine Bluse geschlossen zu halten, weil sie ziemlich dick ist. Er trägt eine gelbe Hose, die gut zu seiner grünen Bluse passt. Er hat einen großen Hut mit genau der gleichen Farbe wie seine Bluse. Natürlich hat er auch eine Waffe. er trägt immer die Waffe bei sich"
+            },
+            {
+                "image": "/assets/images/marchen/rotkappchen/art5.png",
+                "text": "Roodkapjes Vater ist Schmied, deshalb trägt er immer schmutzige, stinkende Kleidung. Es ist nicht zu teure Kleidung. Seine Frau macht die Kleidung selbst. Die Hosen sind sehr robust und haben eine schwarze Farbe. Das Hemd hat kurze Ärmel, weil der Vater sich schnell von der Arbeit erwärmt"
+            },
+            {
+                "image": "/assets/images/marchen/rotkappchen/art6.png",
+                "text": "Roodkapjes Mutter ist Näherin und daher immer stilvoll gekleidet. Sie trägt oft ein rot-blaues Kleid, es ist ein feiner Stoff und von sehr guter Qualität. Sie hat schwarze Schuhe. Es gibt keine Flecken auf den Schuhen. manchmal trägt sie auch einen weißen Hut"
             }
         ],
         "image": ["/assets/images/marchen/rotkappchen.png"],
@@ -92,6 +153,24 @@
             {
                 "title": "Horoskop",
                 "image": "/assets/images/marchen/rapunzel/horoskop.png"
+            },
+            {
+                "title": "Interview Rapunzel (Jacky)",
+                "list": {
+                    "type": "ordered",
+                    "items": [
+                        "Abfrage 1: Darf ich Sie etwas fragen? Antwort: Ja.",
+                        "Abfrage 2: Wie geht’s dir? Antwort:  Mir geht’s gut.",
+                        "Abfrage 3: Wie heißt du? Antwort: Ich bin Rapunzel.",
+                        "Abfrage 4: Wie alt bist du?Antwort: Ich bin 18 Jahre alt.",
+                        "Abfrage 5: Wann wurdest du geboren? Antwort: Am 2. März 2002.",
+                        "Abfrage 6: Wo wohnst du? Antwort: In einem Schloss",
+                        "Abfrage 7: Was ist dein lieblings Farbe? Antwort: Meine liebling Farbe ist Gelb.",
+                        "Abfrage 8: Was ist dein lieblings Tier? Antwort: Pascal, mein Chamäleon.",
+                        "Abfrage 9: Was sind dein Hobbys? Antwort: Mein Hobby ist malen.",
+                        "Abfrage 10: Wo sehen du sich selbst in 5 Jahren? Antwort: In einem prächtigen Schloss."
+                    ]
+                }
             }
         ],
         "image": ["/assets/images/marchen/rapunzel.png"],
@@ -104,16 +183,45 @@
         "kinder": "Mayk, Joep, Quin & Ruby",
         "id": 7,
         "text": {},
-        "image": ""
+        "image": [],
+        "puzzle": {
+            "url": "/assets/images/marchen/tafel/puzzel.png"
+        }
     },
     {
         "name": "Schneewittchen",
         "kinder": "Valentijn, Sven & Tijn",
         "id": 8,
         "text": [{
-            "title": "Tijn",
-            "text": "1. Wer ist Ihr Lieblings-Zwerg? A: Glücklich, weil er sehr glücklich ist<br>2. Welchen Zwerg hassen Sie am meisten? A: Mürrisch, weil er die Anwesenheit von Schneewittchen nicht mag<br>3.Wie war Ihr Vater? A: Der Brei, den ich gestohlen habe, war sehr schmackhaft.<br>4. Wie kann man mit Tieren sprechen? A: Ich weiß es nicht genau, denn es ist aus dem Nichts heraus passiert.<br>5. Sind Sie glücklich mit dem Prinzen, der Sie aufgeweckt hat? A: Ja, ich finde, er ist ein sehr schöner Prinz und ein süßer Mann.<br>6. Warum wollte die Königin, dass Schneewittchen stirbt? A: Weil Schneewittchen das schönste im Land war und die Königin sehr eifersüchtig darauf war.<br>7. Was ist ihre lieblings fabre? A: Blau<br>8. Wie war es, als Sie noch bei Ihrer Stiefmutter lebten? A: Ich fand es sehr beängstigend und deshalb bin ich vor meiner Stiefmutter weggelaufen.<br>9. Wer alt bist du? A: Ich bin 14 Jahre alt.<br>10. Hast du Geschwister? A: Nein, ich habe keine Geschwister"
-        }],
+                "title": "Tijn",
+                "text": "1. Wer ist Ihr Lieblings-Zwerg? A: Glücklich, weil er sehr glücklich ist<br>2. Welchen Zwerg hassen Sie am meisten? A: Mürrisch, weil er die Anwesenheit von Schneewittchen nicht mag<br>3.Wie war Ihr Vater? A: Der Brei, den ich gestohlen habe, war sehr schmackhaft.<br>4. Wie kann man mit Tieren sprechen? A: Ich weiß es nicht genau, denn es ist aus dem Nichts heraus passiert.<br>5. Sind Sie glücklich mit dem Prinzen, der Sie aufgeweckt hat? A: Ja, ich finde, er ist ein sehr schöner Prinz und ein süßer Mann.<br>6. Warum wollte die Königin, dass Schneewittchen stirbt? A: Weil Schneewittchen das schönste im Land war und die Königin sehr eifersüchtig darauf war.<br>7. Was ist ihre lieblings fabre? A: Blau<br>8. Wie war es, als Sie noch bei Ihrer Stiefmutter lebten? A: Ich fand es sehr beängstigend und deshalb bin ich vor meiner Stiefmutter weggelaufen.<br>9. Wer alt bist du? A: Ich bin 14 Jahre alt.<br>10. Hast du Geschwister? A: Nein, ich habe keine Geschwister"
+            },
+            {
+                "title": "die Modewelt (Valentijn)",
+                "image": "/assets/images/marchen/rotkappchen/art1.png",
+                "text": "Rotkäppchen trägt ein schönes rotes Kleid. Das Kleid fällt auf die Knie von Rotkäppchen. Sie trägt auch weiße Schuhe, die in der Sonne scheinen. Rotkäppchen hat natürlich eine rote Mütze auf dem Kopf. "
+            },
+            {
+                "image": "/assets/images/marchen/rotkappchen/art2.png",
+                "text": "Der Wolf hat ein schönes warmes graues Fell. Es hat einen schönen Anzug darüber, die Farbe ist grau und es besteht aus sehr weichem Material. Deshalb ist der Anzug so teuer. Er hat auch eine schöne runde Brille im Gesicht, um Rotkäppchen aus der Ferne zu sehen"
+            },
+            {
+                "image": "/assets/images/marchen/rotkappchen/art3.png",
+                "text": "Oma trägt ein rot-weiß kariertes Pyjama-Shirt. Sie trägt eine blaue Pyjamahose, weil sie den ganzen Tag im Bett liegt, weil sie krank ist"
+            },
+            {
+                "image": "/assets/images/marchen/rotkappchen/art4.png",
+                "text": "Der Jäger trägt immer seine grüne Bluse. Es ist von sehr guter Qualität und von einer teuren Marke. Er hat immer einen schwarzen Gürtel, um seine Bluse geschlossen zu halten, weil sie ziemlich dick ist. Er trägt eine gelbe Hose, die gut zu seiner grünen Bluse passt. Er hat einen großen Hut mit genau der gleichen Farbe wie seine Bluse. Natürlich hat er auch eine Waffe. er trägt immer die Waffe bei sich"
+            },
+            {
+                "image": "/assets/images/marchen/rotkappchen/art5.png",
+                "text": "Roodkapjes Vater ist Schmied, deshalb trägt er immer schmutzige, stinkende Kleidung. Es ist nicht zu teure Kleidung. Seine Frau macht die Kleidung selbst. Die Hosen sind sehr robust und haben eine schwarze Farbe. Das Hemd hat kurze Ärmel, weil der Vater sich schnell von der Arbeit erwärmt"
+            },
+            {
+                "image": "/assets/images/marchen/rotkappchen/art6.png",
+                "text": "Roodkapjes Mutter ist Näherin und daher immer stilvoll gekleidet. Sie trägt oft ein rot-blaues Kleid, es ist ein feiner Stoff und von sehr guter Qualität. Sie hat schwarze Schuhe. Es gibt keine Flecken auf den Schuhen. manchmal trägt sie auch einen weißen Hut"
+            }
+        ],
         "image": [
             "/assets/images/marchen/schneewittchen.png",
             "/assets/images/marchen/schneewittchen/reclame.png"
@@ -127,8 +235,21 @@
         "kinder": "Nuri, Camiel & Erin",
         "id": 11,
         "text": [{
-            "title": "Interview von Hans",
-            "text": "<ol><li>Was ist ihr Lieblingsessen? : Ein Keks mit Kandiszucker.</li><li>Ist Gretel deine Schwester? : Ja Gretel ist meine Schwester.</li><li>Who wohnst du?: ich wohne? : Ich lebe in den Walden.</li><li>Mit wem lebe Sie zu Hause? : Mit meine Mutter, Vater und Schwester Gretel.</li><li>Wie alt bist du? : Ich bin dreiundfünfzig Jahre alt.</li><li>Wie war das Essen im das Süßwarenhaus? : Es war lecker.</li><li>Hatten sie Angst? : Nein ich fühlte mich gut.</li><li>War die Stiefmutter nett? : Ja die Stiefmutter war nett.</li><li>Waren Sie hungrig? : ein bisschen.</li><li>Haben sie Haustiere? : Ja ich habe eine Fische.</li></ol>"
-        }]
+                "title": "Interview von Hans (Nuri)",
+                "text": "<ol><li>Was ist ihr Lieblingsessen? : Ein Keks mit Kandiszucker.</li><li>Ist Gretel deine Schwester? : Ja Gretel ist meine Schwester.</li><li>Who wohnst du?: ich wohne? : Ich lebe in den Walden.</li><li>Mit wem lebe Sie zu Hause? : Mit meine Mutter, Vater und Schwester Gretel.</li><li>Wie alt bist du? : Ich bin dreiundfünfzig Jahre alt.</li><li>Wie war das Essen im das Süßwarenhaus? : Es war lecker.</li><li>Hatten sie Angst? : Nein ich fühlte mich gut.</li><li>War die Stiefmutter nett? : Ja die Stiefmutter war nett.</li><li>Waren Sie hungrig? : ein bisschen.</li><li>Haben sie Haustiere? : Ja ich habe eine Fische.</li></ol>"
+            },
+            {
+                "title": "Gefunden:  Süßigkeitenhaus (Erin)",
+                "text": "Dieses Wochenende ist ein Süßigkeitenhaus gefunden.<br>Die Polizei hat einen Käfig gefunden.<br>Sie glauben, dass Kinder inhaftiert worden sind.<br>Es geht um zwei Kinder.<br>Ein Junge und ein Mädchen.<br>Ihre Namen sind Hänsel und Gretel.<br>Die Polizei ermittelt noch immer.<br>Niemand weiß, wo die Kinder sind.<br>Es gibt Spuren einer älteren Frau.<br>Mehr ist noch nicht bekannt."
+            },
+            {
+                "title": "(Camiel)",
+                "image": "/assets/images/marchen/hanselgretel/person.png"
+            }
+        ],
+        "image": ["/assets/images/marchen/hanselgretel.jpg"],
+        "puzzle": {
+            "url": "/assets/images/marchen/hanselgretel/puzzel.png"
+        }
     }
 ]
