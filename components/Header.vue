@@ -2,8 +2,9 @@
   <div class="header fadeIn">
     <h1>{{ title }}</h1>
     <p>
-      Willkommen! Klieken Sie <router-link to="/marchen">hier</router-link> vor
-      eine Liste von die Märchens.
+      Willkommen! Klieken Sie
+      <router-link to="/marchen">hier</router-link> vor eine Liste von die
+      Märchens.
     </p>
   </div>
 </template>
@@ -20,7 +21,7 @@ module.exports = {
 </script>
 
 <style scoped>
-div {
+.header {
   margin: auto;
   border-radius: 10px;
   padding: 10px 10px;

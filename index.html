@@ -24,7 +24,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
                         <router-link class="nav-link" to="/">Home</router-link>
                     </li>
@@ -39,23 +39,29 @@
                         </div>
                     </li>
                 </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link">Hergestellt von Wisse</a>
+                    </li>
+                </ul>
             </div>
         </nav>
         <div class="row no-gutters">
             <div class="container">
                 <div style="padding-top: 1rem;"></div>
-                <router-view></router-view>
+                <router-view>
+                </router-view>
             </div>
         </div>
     </div>
-
-    <!--<footer class="footer">
+    <!--<div class="footer">
         <div class="container" style="padding-top: 0px;">
-            <span class="text-muted"></span>
+            <span class="text-muted">Hergestellt von Wisse</span>
         </div>
-    </footer>-->
+    </div>-->
     <footer class="foot">
     </footer>
+    <script src="/marchen.js"></script>
     <script src="/assets/js/vendor/jquery.min.js"></script>
     <script src="/assets/js/vendor/bootstrap.bundle.min.js"></script>
     <script src="/assets/js/router.js"></script>

@@ -18,23 +18,38 @@
               <img v-else v-bind:src="article.image" class="articleimg image" />
               <div v-if="article.list">
                 <ol v-if="article.list.type == 'ordered'">
-                  <li v-for="item in article.list.items" v-bind:key="item">
+                  <h3>{{ article.list.title }}</h3>
+                  <li
+                    v-for="item in article.list.items"
+                    v-bind:key="item"
+                    class="ordered"
+                  >
                     {{ item }}
                   </li>
                 </ol>
                 <ul v-if="article.list.type == 'unordered'">
+                  <h3>{{ article.list.title }}</h3>
                   <li v-for="item in article.list.items" v-bind:key="item">
                     {{ item }}
                   </li>
                 </ul>
               </div>
-              <p v-html="article.text"></p>
+              <div v-if="Array.isArray(article.text)">
+                <p
+                  v-for="lines in article.text"
+                  v-bind:key="lines"
+                  v-html="lines"
+                ></p>
+              </div>
+              <p v-else v-html="article.text"></p>
               <hr />
             </div>
           </div>
-          <p v-else>
+          <!--<div v-else>
+          <p>
             kein Text!
           </p>
+          </div>-->
         </div>
       </div>
       <div class="col-md-4 sidebar">
@@ -153,6 +168,10 @@ h3 {
   display: block;
 }
 .articleimg {
+  max-width: 100%;
   margin-bottom: 1rem;
+}
+.ordered {
+  margin-bottom: 0.5rem;
 }
 </style>
